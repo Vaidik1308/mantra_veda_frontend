@@ -4,11 +4,11 @@ import React from 'react'
 const LogoComp = () => {
   return (
     <div className='w-fit '>
-        <h1 className='font-[700] lowercase md:text-3xl  leading-5 '>
+        <h1 className='font-[500] lowercase md:text-2xl  leading-5 '>
             <span className='text-orange-600'>
                 Mantra
             </span>
-            <span className='text-[#563C5C]'>
+            <span className='text-[#563C5C] font-[700]'>
                 Veda.
             </span>
         </h1>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import HeaderSection from "@/components/common/header";
 import FooterSection from "@/components/common/footer";
+import { Poppins } from 'next/font/google'
 
 
 
@@ -11,6 +12,11 @@ export const metadata: Metadata = {
   description: "vedic mantra a app",
 };
 
+
+const inter = Poppins({ 
+  weight: ['100','200','300','400', '500', '600','700','800','900'],
+  subsets: ['latin'] 
+})
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` antialiased text-[var(--text-primary)] w-full min-h-screen bg-[#FFFDF0]`}
+        className={` antialiased ${inter.className} w-full min-h-screen bg-[#FFFDF0] `}
       >
         <div className="w-full h-[10vh]">
           <HeaderSection/>

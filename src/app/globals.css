@@ -8,9 +8,7 @@
 
 :root {
   /* Font Families */
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Lexend', sans-serif;
-  --font-spiritual: 'Cormorant Garamond', serif;
+  
   
   /* Light Mode */
   --primary-sage: #9CAF88;

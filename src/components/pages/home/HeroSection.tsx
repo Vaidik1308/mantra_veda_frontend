@@ -10,11 +10,11 @@ const HeroSection = () => {
     <div className='w-full flex flex-col md:gap-4'>
       <div className='md:px-2 md:mt-12 flex md:flex-row flex-col items-center '>
         <div className='md:w-1/2 w-full flex flex-col gap-2'>
-          <h1 className='text-[var(--text-primary)] text-[2.2rem] md:text-6xl md:flex-col md:items-start font-[900]'>
+          <h1 className=' text-[2.2rem] md:text-6xl md:flex-col md:items-start font-[600]'>
             <span>
               Harness the Power of  
             </span>
-            <span className='font-[800]  px-3  text-orange-500'>
+            <span className='font-[700]  px-3  text-orange-500'>
               Vedic Mantras 
             </span>
             <span className='flex  flex-wrap'>
