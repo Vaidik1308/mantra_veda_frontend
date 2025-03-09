@@ -44,16 +44,16 @@ const BenefitsSection = () => {
   return (
     <div className='w-full my-4  mt-10'>
         <h2 className='text-2xl md:text-4xl font-[700]'>Harness the Power of Ancient Sound Therapy</h2>
-        <div className='flex flex-col md:flex-row gap-2 mt-2'>
+        <div className='md:flex grid grid-cols-2 md:flex-row gap-2 mt-2'>
             {
                 benefits.map((item,i) => (
-                    <div key={i} className='flex md:gap-2 md:hover:bg-[#fffae0] duration-200 cursor-pointer items-center bg-[#F9F6E6] shadow-lg border border-gray-200 rounded-lg p-2'>
-                        <div className='w-1/4 text-4xl'>
+                    <div key={i} className='flex md:flex-row flex-col gap-6 md:gap-2 md:hover:bg-[#fffae0] duration-200 cursor-pointer items-center bg-[#F9F6E6] shadow-lg border border-gray-200 rounded-lg p-2'>
+                        <div className='w-full text-center md:w-1/4 md:text-4xl text-6xl'>
                             {item.icon}
                         </div>
-                        <div>
-                            <h4 className='font-[700]'>{item.title}</h4>
-                            <p className='text-[0.8rem] font-[500] leading-3.5'>
+                        <div className='flex flex-col items-center md:items-start w-full gap-1.5 md:gap-1'>
+                            <h4 className='font-[700] text-sm md:text-[1rem]'>{item.title}</h4>
+                            <p className='text-[0.8rem] font-[500] leading-3.5 text-center md:text-left text-gray-500'>
                                 {item.label}
                             </p>
                         </div>
