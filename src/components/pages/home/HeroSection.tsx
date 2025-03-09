@@ -14,7 +14,7 @@ const HeroSection = () => {
             <span>
               Harness the Power of  
             </span>
-            <span className='font-[800]  mx-1.5  text-orange-500'>
+            <span className='font-[800]  px-3  text-orange-500'>
               Vedic Mantras 
             </span>
             <span className='flex  flex-wrap'>
