@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import React from 'react'
 // 🧘‍♂️ Stress Relief – Calm your mind with soothing Vedic chants.
 // 🔹 😴 Better Sleep – Experience deep relaxation for restful nights.
